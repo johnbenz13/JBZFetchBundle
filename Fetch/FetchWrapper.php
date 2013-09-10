@@ -27,7 +27,7 @@ class FetchWrapper
 
         if ($username) {
             // Initialize the connection
-            $this->server->setAuthentification($username, $password);
+            $this->server->setAuthentication($username, $password);
         }
     }
 
