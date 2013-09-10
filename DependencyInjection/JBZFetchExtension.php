@@ -27,6 +27,8 @@ class JBZFetchExtension extends Extension
 
         $container->setParameter('jbz_fetch.host', $config['host']);
         $container->setParameter('jbz_fetch.port', $config['port']);
+        $container->setParameter('jbz_fetch.username', $config['username']);
+        $container->setParameter('jbz_fetch.password', $config['password']);
         $container->setParameter('jbz_fetch.service', $config['service']);
     }
 }
