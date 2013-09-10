@@ -1,0 +1,21 @@
+{
+    "name": "jbz/fetch-bundle",
+    "description": "Bundle that integrates tedivm/fetch into Symfony2",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "tedivm/fetch": "v0.4.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Bensaid",
+            "email": "john@bensaidj.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+    "psr-0": { "JBZ\\FetchBundle": ""}
+    },
+    "target-dir": "JBZ/FetchBundle"
+}
